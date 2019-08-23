@@ -12,6 +12,8 @@
 		BA05E0C6230F3CBA0028BE4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA05E0C4230F3CBA0028BE4E /* Main.storyboard */; };
 		BA05E0C8230F3CBB0028BE4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA05E0C7230F3CBB0028BE4E /* Assets.xcassets */; };
 		BA05E0CB230F3CBB0028BE4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA05E0C9230F3CBB0028BE4E /* LaunchScreen.storyboard */; };
+		BA05E0D5230F49F20028BE4E /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA05E0D4230F49F20028BE4E /* CustomCollectionViewCell.swift */; };
+		BA05E0F7230F54E40028BE4E /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA05E0F6230F54E40028BE4E /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BA05E0C7230F3CBB0028BE4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA05E0CA230F3CBB0028BE4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA05E0CC230F3CBB0028BE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA05E0D4230F49F20028BE4E /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		BA05E0F6230F54E40028BE4E /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				BA05E0C7230F3CBB0028BE4E /* Assets.xcassets */,
 				BA05E0C9230F3CBB0028BE4E /* LaunchScreen.storyboard */,
 				BA05E0CC230F3CBB0028BE4E /* Info.plist */,
+				BA05E0D4230F49F20028BE4E /* CustomCollectionViewCell.swift */,
+				BA05E0F6230F54E40028BE4E /* SecondVC.swift */,
 			);
 			path = CustomUICollectionPart2;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA05E0C3230F3CBA0028BE4E /* ViewController.swift in Sources */,
+				BA05E0D5230F49F20028BE4E /* CustomCollectionViewCell.swift in Sources */,
+				BA05E0F7230F54E40028BE4E /* SecondVC.swift in Sources */,
 				BA05E0C1230F3CBA0028BE4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
